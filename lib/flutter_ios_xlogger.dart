@@ -2,7 +2,6 @@ import 'dart:ffi';
 import 'dart:io';
 import 'dart:isolate';
 import 'package:ffi/ffi.dart';
-import 'package:flutter/services.dart';
 import 'package:flutter_ios_xlogger/flutter_ios_xlogger_method_channel.dart';
 
 import 'flutter_ios_xlogger_platform_interface.dart';
@@ -77,7 +76,7 @@ class FlutterIosXlogger {
   }
 }
 
-
+// ignore: constant_identifier_names
 enum LogLevel { VERBOSE, DEBUG, INFO, WARNNING, ERROR, FATAL, NONE }
 
 class XLogConfig {

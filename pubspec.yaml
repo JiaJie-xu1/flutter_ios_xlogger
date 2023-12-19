@@ -1,7 +1,7 @@
 name: flutter_ios_xlogger
 description: A new Flutter project.
 version: 0.0.1
-homepage:
+homepage: https://github.com/JiaJie-xu1/flutter_ios_xlogger
 
 environment:
   sdk: '>=2.19.6 <3.0.0'
